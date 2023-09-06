@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: medium ;
+    font-size : 36px ;
+}
+
+h2
+{
+    font-family : 'Space Grotesk', sans-serif;
+    font-size : 22px ;
+    text-align: center;
+    font-weight: normal;
+}
+
+.bouton
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: medium ;
+    font-size : 20px ;
+    text-decoration: none ;
+    color: white ;
+}
+
+body
+{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: "Rajdhani" , sans-serif;
+    font-size: 18px  ;
+    color: white ;
+    background-color: black ;
+    line-height: 1.5 ;
+}
+
+#div_primaire
+{
+    height : 100vh;
+    background-image: url("Illustrations/Bathome1.png");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+
+} 
+
+#div_secondaire
+{
+    border-left: 2px solid rgba(255,255,255,0.1);
+    border-right: 2px solid rgba(255,255,255,0.1);
+    margin: 0 102px;
+}
+#div1
+{
+    border-bottom: 3px solid rgba(255,255,255,0.1);
+    height: 132px ;
+}
+
+header
+{
+    width: 90% ;
+
+    margin: auto ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    padding-top: 20px ;
+}  
+
+nav p
+{
+    color : white ;
+    text-decoration: underline ;
+    font-weight: bold ;
+    
+}
+.div1_icone
+{
+    height: 300px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    align-items: center ;
+    position: fixed ;
+    right: 3.2% ;
+}
+
+
+#intro
+{
+    width: 43% ;
+    text-align: center ;
+    margin: 15% auto 5% auto ;
+}
+
+#div1_bouton
+{
+    width: 53% ;
+    display: flex ;
+    justify-content: space-between ;
+    flex-wrap: wrap ;
+    margin-left: 24% ;
+}
+.bouton1
+{
+    color: white ;
+    background: linear-gradient(to right , #eddebf , #19587d) ;
+    opacity: 0.4 ;
+    padding: 3% 6% ;
+    margin-left: 7% ;
+    transition:  opacity 1s ;
+}
+.bouton1:hover
+{
+    opacity: 1 ;
+}
+#fleche_down
+{
+   display: flex ;
+   justify-content: center ;
+   padding: 10% 0 5% 0 ;
+}
+/* ***************************************************** LES HEROS DE BATMAN **************************** */
+
+#voir_le_heros , #acteurs_batman p
+{
+    margin-left: 5% ;
+}
+
+#acteurs_batman p
+{
+    width: 70% ;
+}
+
+#image_acteurs_batman
+{
+    display: flex ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
+}
+/* ************************************************ ENNEMIS BATMAN***************************************** */
+
+#titre_ennemis_batman
+{
+    display: flex ;
+}
+
+#adversaires
+{
+    margin-top: 15% ;
+    margin-left: 5% ;
+}
+
+#adversaires , ennemis_batman p
+{
+    margin-left: 5% ;
+}
+
+#ennemis_batman p
+{
+    width: 70% ;
+}
+
+#image_ennemis_batman
+{
+    display: flex ;
+    justify-content: space-evenly ;
+    flex-wrap: wrap ;
+}
+
+
+/************************************************** LES ALLIES DE BATMAN*******************/
+#titre_allies_batman
+{
+    margin-right: -102px ;
+    display: flex ;
+    justify-content: space-between ;
+}
+
+#titre_allies_batman h1
+{
+    margin-top: 20% ;
+}
+
+#titre_allies_batman h1 , #allies_batman p
+{
+    margin-left: 5% ;
+}
+
+#alliés_batman p
+{
+    width: 70% ;
+}
+
+#image_allies_batman
+{
+    display: flex ;
+    justify-content: space-between ;
+    flex-wrap: wrap ;
+}
+
+
+/************************ JUTICE LEAGUE****************************/
+
+#justice_league h1 , #justice_league p
+{
+    width: 70% ;
+    margin: auto ;
+}
+
+/************************MULTIMEDIA********************************/
+
+#multimedia h1
+{
+    margin-left: 5% ;
+}
+.image1_multimedia
+{
+    margin: 0.5% ;
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+}
+#annonce_film
+{
+    display: flex ;
+    justify-content: center ;
+}
+
+#qffiche_film
+{
+    font-family: "space Grotesk" , sans-serif ;
+    font-weight: bold ;
+    font-size: 12px ;
+    width: 40% ;
+
+    background: linear-gradient(135deg , #313737 , #323837 , #1d2a30) ;
+    padding: 1% ;
+    text-align: justify ;
+    border-top-right-radius: 10px ;
+    height: 210px ;
+}
+
+.image2_multimedia
+{
+    margin: 0.5% ;
+}
+
+/*******************************FORMULAIRE**************************/
+
